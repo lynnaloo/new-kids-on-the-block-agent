@@ -41,6 +41,6 @@ Use `@manager` when you're not sure which specialist to ask — it will route au
 Requires [Claude Code](https://claude.ai/code). Clone this repo and the agents are available immediately — no additional configuration needed.
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/lynnaloo/new-kids-on-the-block-agent
 cd new-kids-on-the-block-agent
 ```
