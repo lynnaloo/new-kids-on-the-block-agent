@@ -20,6 +20,13 @@ A Salesforce expert agent system for Claude Code, themed around New Kids on the 
 
 Requires [Claude Code](https://claude.ai/code). Clone this repo and the agents are available immediately — no additional configuration needed.
 
+If you don't have Git installed, get it first:
+- **Mac:** `brew install git` (requires [Homebrew](https://brew.sh)) or install [Xcode Command Line Tools](https://developer.apple.com/xcode/resources/) via `xcode-select --install`
+- **Windows:** Download from [git-scm.com](https://git-scm.com/download/win)
+- **Linux:** `sudo apt install git` (Debian/Ubuntu) or `sudo dnf install git` (Fedora)
+
+Then clone the repo:
+
 ```bash
 git clone https://github.com/lynnaloo/new-kids-on-the-block-agent
 cd new-kids-on-the-block-agent
@@ -44,3 +51,18 @@ Then invoke any agent with an `@`-mention:
 ```
 
 Use `@manager` when you're not sure which specialist to ask — it will route automatically.
+
+## Contributing
+
+The agents get smarter when their knowledge does. Contributions are welcome — especially additions to the context documents in `.claude/context/`.
+
+Good contributions include:
+- New architectural patterns, platform limits, or implementation gotchas
+- Corrections to outdated feature information
+- New context documents for agents that don't have one yet (Jordan, Jon, Danny)
+- Improvements to agent personas or routing logic
+- Additional trivia context about NKOTB
+
+To contribute, fork the repo, make your changes, and open a pull request. Keep context documents factual, cite the Salesforce release if relevant, and avoid speculating about unannounced features.
+
+If you have a feature request, please add an issue.
